@@ -1,0 +1,62 @@
+body {
+    background-image: url('./Images/HTMLBackGroung.jpg.jpg');
+    margin: 0px, 0px, 0px, 0px;
+    border: 15px solid #08a623;
+    border-radius: 6px;
+    padding: 100px;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color:#e6a00b;
+    animation: flash linear 1s infinite;
+    margin: 5px, 5px, 5px, 5px;
+    
+    
+   
+}
+@keyframes flash{
+    0% {opacity: 1;}
+    50% {opacity: 0.1;}
+    100% {opacity: 1;}
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    color: seashell;
+    margin: 10px, 10px, 10px, 10px;
+    border: 15px solid #e6a00b;
+    border-radius: 6px;
+    padding: 100px, 100px;
+}
+#GoBackButton {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    color: seashell;
+    background-color: #e6a00b;
+    margin: 5px, 5px, 5px, 5px;
+    border: 15px solid #e6a00b;
+    border-radius: 6px;
+    Padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    right: 80px;
+    animation: flash2 linear 1s infinite;
+    
+}
+@keyframes flash2{
+    0% {opacity: 1;}
+    50% {opacity: 0.1;}
+    100% {opacity: 1;}
+}
+.box {
+    padding-left: 800px;
+}
+a {
+    text-decoration: none;
+}

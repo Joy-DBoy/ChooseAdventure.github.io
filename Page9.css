@@ -1,0 +1,123 @@
+body {
+height: 1600px;
+background-color: wheat;
+border-top: 20px double #de926f;
+border-left: 20px double #de926f;
+border-right: 20px double #de926f;
+border-bottom: 20px double #de926f;
+border-radius: 10px;
+padding-top: 20px;
+padding-left: 40px;
+padding-bottom: 20px;
+padding-right: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: seashell;
+    color: #de926f;
+    background-color: seashell;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 20px outset #de926f;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: seashell;
+    color: #de926f;
+    background-color: seashell;
+    margin-left: 600px;
+    margin-right: 650px;
+    border: 20px outset #de926f;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img {
+    width: 700px;
+    height: 350px;
+    border: 30px double #de926f;
+    border-radius: 20px;
+    position: relative;
+    left: 450px;
+    top: 50px;
+
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    color: #de926f;
+    background-color: seashell;
+    position: relative;
+    top: 250px;
+    border: 20px outset #de926f;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#buttonOne {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    top: 300px;
+    left: 400px;
+    margin: 5px, 5px, 5px, 5px;
+    background-color: #de926f;
+    color: #e6a00b;
+    margin-top: 10px;
+    border: 15px solid #de926f;
+    border-radius: 15px;
+    Padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    animation: flash2 linear 1s infinite;
+    
+}
+@keyframes flash{
+    30% {opacity: 3;}
+    60% {opacity: 0.4;}
+    100% {opacity: 3;}
+}
+
+#buttonTwo {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    left: 1000px;
+    top: 300px;
+    margin: 5px, 5px, 5px, 5px;
+    background-color: #de926f;
+    color: #e6a00b;
+    margin-top: 10px;
+    border: 15px solid #de926f;
+    border-radius: 15px;
+    Padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    animation: flash2 linear 1s infinite;
+}
+@keyframes flash2{
+    30% {opacity: 3;}
+    60% {opacity: 0.4;}
+    100% {opacity: 3;}
+}
+a {
+    text-decoration: none;
+}

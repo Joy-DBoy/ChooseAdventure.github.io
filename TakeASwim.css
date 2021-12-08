@@ -1,0 +1,22 @@
+body {
+    background-image: url('./Images/GameEnd.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    border: 30px outset red;
+    border-radius: 20px;
+    padding: 20px, 40px, 20px, 40px;
+    height: 900px;
+
+}
+audio {
+    border: 10px solid red;
+    background-color: red;
+    border-radius: 10PX;
+    margin: 10px, 5px, 10px, 5px;
+    padding: 5px, 5px, 5px, 5px;
+    position: relative;
+    left: 700px;
+    top: 50px;
+}

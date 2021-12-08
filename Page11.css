@@ -1,0 +1,123 @@
+body {
+    background-image: url('./Images/Page9BGI.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 1500px;
+    margin: 10px, 10px, 10px, 10px;
+    border: 25px double #ac71d1;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    left: 500px;
+    border: 15px solid #ac71d1;
+    border-radius: 10px;
+    background-color: seashell;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    width: 600px;
+    height: 150px;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: seashell;
+    position: relative;
+    left: 675px;
+    border: 10px solid #ac71d1;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    background-color: seashell;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border: 15px solid #ac71d1;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
+.box {
+    background-image: url('./Images/SandiKitetsu.jpg');
+    width: 550px;
+    height: 500px;
+    background-size: contain;
+    position: relative;
+    left: 550px;
+    border: 20px solid #ac71d1;
+    border-radius: 15px;
+}
+#buttonOne {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ac71d1;
+    position: relative;
+    left: 650px;
+    border: 10px solid #ac71d1 ;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    animation: flash linear 1s infinite;
+
+}
+@keyframes flash{
+    0% {opacity: 1;}
+    30% {opacity: 0.2;}
+    80% {opacity: 1;}
+}
+#buttonTwo{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ac71d1;
+    position: relative;
+    left: 900px;
+    border: 10px solid #ac71d1;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    animation: flash2 linear 1s infinite;
+}
+@keyframes flash2{
+    0% {opacity: 1;}
+    30% {opacity: 0.2;}
+    80% {opacity: 1;}
+}    
+a {
+    text-decoration: none;
+}

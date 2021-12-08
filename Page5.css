@@ -1,0 +1,109 @@
+body {
+    background-color: #a6dced;
+    border-top: 100px outset #FFC000;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: seashell;
+    color: #ff3ea5ff;
+    margin-right: 160px;
+    margin-left: 160px;
+    border: 15px outset #FFC000;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: seashell;
+    color: #ff3ea5ff;
+    margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 190px;
+    border: 10px outset #FFC000;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+img {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 750px;
+    top: 10px;
+    border-radius: 30px;
+    
+}
+p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Rock Salt', cursive;
+    background-color: seashell;
+    color: #ff3ea5ff;
+    position: relative;
+    top: 30px;
+    margin-bottom: 10px;    
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px, 10px, 10px, 10px;
+    border: 10px outset #FFC000;
+    border-radius: 5px;
+}
+#buttonOne {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ff3ea5ff;
+    color: seashell;
+    position: relative;
+    top: 100px;
+    margin-left: 600px;
+    border: 15px solid #ff3ea5ff;
+    border-radius: 10px;
+    Padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    animation: flash linear 1s infinite;
+}
+@keyframes flash{
+    20% {opacity: 2;}
+    30% {opacity: 0.1;}
+    50% {opacity: 1;}
+}
+#buttonTwo {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ff3ea5ff;
+    color: seashell;
+    position: relative;
+    top: 100px;
+    margin-left: 500px;
+    border: 15px solid #ff3ea5ff;
+    border-radius: 10px;
+    Padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    animation: flash2 linear 1s infinite;
+}
+@keyframes flash2{
+    10% {opacity: 1;}
+    50% {opacity: 0.1;}
+    800% {opacity: 1;}
+}
+a{
+    text-decoration: none;
+}
